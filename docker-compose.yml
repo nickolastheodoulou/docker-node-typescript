@@ -7,7 +7,9 @@ services:
     environment:
       NODE_ENV: production
     ports:
-      - '3000:3000'
+      - '5000:5000'
+    expose:
+      - '5000'
     volumes:
       - .:/home/app/appDir
       - /home/app/appDir/node_modules

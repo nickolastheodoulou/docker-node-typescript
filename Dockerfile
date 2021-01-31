@@ -46,4 +46,4 @@
 #	USER $USER
 
 # Kick node off from the compiled dist folder, which is compiled from our simple gulpfile
-	CMD ["node", "dist/index.js"]
+	CMD ["node", "dist/app.js"]
