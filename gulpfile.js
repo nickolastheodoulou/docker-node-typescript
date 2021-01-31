@@ -2,10 +2,10 @@ const gulp = require('gulp');
 
 const settings = {
 	copy : {
-		files: ['app/**/*.html']
+		files: ['backend/**/*.html']
 	},
 	watch: {
-		files: ['app/**/*.html']
+		files: ['backend/**/*.html']
 	},
 	base: './'
 };

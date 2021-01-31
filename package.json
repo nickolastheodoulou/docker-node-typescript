@@ -1,21 +1,15 @@
 {
-  "name": "docker-node-typescript",
-  "version": "1.0.2",
-  "description": "A starter project to quickly build NodeJS apps using Docker and Typescript, with best practices in mind",
+  "name": "backend",
+  "version": "1.0.0",
   "scripts": {
     "build": "gulp copy; gulp watch & tsc-watch -p . --onSuccess \"node dist/app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["docker", "node", "typescript", "starter", "docker node typescript", "docker node", "docker typescript"],
-  "author": "Stephen Gardner (opensourceaugie@gmail.com)",
-  "license": "ISC",
-  "homepage": "https://github.com/stephengardner/docker-node-typescript",
   "dependencies": {
     "express": "^4.10.2",
     "gulp": "^3.9.1",
     "dayjs": "^1.10.4",
     "cors": "2.8.5",
-    "socket.io": "^1.2.0",
     "pg": "8.5.1"
   },
   "repository": {
@@ -24,11 +18,6 @@
   },
   "devDependencies": {
     "@types/express": "^4.11.0",
-    "@types/node": "^8.5.8",
-    "gulp": "^3.9.1",
-    "dayjs": "^1.10.4",
-    "cors": "2.8.5",
-    "socket.io": "^1.2.0",
-    "pg": "8.5.1"
+    "@types/node": "^8.5.8"
   }
 }
